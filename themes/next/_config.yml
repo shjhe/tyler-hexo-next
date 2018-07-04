@@ -280,7 +280,7 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
-  separated_meta: true
+  separated_meta: true # 是否换行显示 字数统计 及 阅读时长
   item_text_post: true
   item_text_total: true
   awl: 4
