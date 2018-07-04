@@ -20,3 +20,8 @@ source/lib/ua-parser-js/*
 !source/lib/ua-parser-js/dist/
 
 !source/lib/velocity/
+
+# 插件添加去除忽略
+!source/lib/fancybox/
+!source/lib/font-awesome/
+!source/lib/pace/
