@@ -526,12 +526,12 @@ gitment:
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
-  cleanly: false # Hide 'Powered by ...' on footer, and more
+  cleanly: true # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
   github_user: shjhe # MUST HAVE, Your Github Username
-  github_repo: shjhe.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: 3ecf7d35dbeba3e83b06 # MUST HAVE, Github client id for the Gitment
-  client_secret: 893a3b2efb46dfd7977828d9315dbdb59aaef348 # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_repo: HexoComment # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: a34ecee913f9e78038db # MUST HAVE, Github client id for the Gitment
+  client_secret: 2ad67685f3894c7f7c05addb296e214c4dd4d96c # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 

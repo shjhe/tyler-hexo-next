@@ -53,6 +53,37 @@
       {% else %}
         <div id="gitment-container"></div>
       {% endif %}
+      <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+      <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+      <script>
+        const myTheme = {
+          render(state, instance) {
+            const container = document.createElement('div');
+            container.lang = "en-US";
+            container.className = 'gitment-container gitment-root-container';
+            container.appendChild(instance.renderHeader(state, instance));
+            container.appendChild(instance.renderEditor(state, instance));
+            container.appendChild(instance.renderComments(state, instance));
+            container.appendChild(instance.renderFooter(state, instance));
+            return container;
+          }
+        }
+        function showGitment() {
+          $("#gitment-display-button").attr("style", "display:none");
+          $("#gitment-container").attr("style", "").addClass("gitment_container");
+          var gitment = new Gitment({
+            id: '{{page.title}}',
+            theme: myTheme,
+            owner: '{{ theme.gitment.github_user }}',
+            repo: '{{ theme.gitment.github_repo }}',
+            oauth: {
+              client_id: '{{ theme.gitment.client_id }}',
+              client_secret: '{{ theme.gitment.client_secret }}'
+            }
+          });
+          gitment.render('gitment-container');
+        }
+       </script>
     </div>
 
   {% elseif theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
