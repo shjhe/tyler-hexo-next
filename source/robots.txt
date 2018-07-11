@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /hexo/
+Allow: /hexo/archives/
+Allow: /hexo/categories/
+Allow: /hexo/tags/ 
+Allow: /hexo/resources/ 
+Disallow: /hexo/vendors/
+Disallow: /hexo/js/
+Disallow: /hexo/css/
+Disallow: /hexo/fonts/
+Disallow: /hexo/vendors/
+Disallow: /hexo/fancybox/
+
+Sitemap: https://shjhe.github.io/hexo/sitemap.xml
+Sitemap: https://shjhe.github.io/hexo/baidusitemap.xml

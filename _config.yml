@@ -6,7 +6,7 @@
 title: Tyler FE
 subtitle: Hexo
 description: Tyler的个人网站
-keywords:
+keywords: 前端开发
 author: Tyler He # 作者
 language: zh-CN # 语言
 timezone: Asia/Shanghai  # 时区
@@ -97,3 +97,9 @@ symbols_count_time:
   time: true
   total_symbols: true
   total_time: true
+
+# SEO site map
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
