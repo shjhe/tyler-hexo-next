@@ -25,3 +25,5 @@ source/lib/ua-parser-js/*
 !source/lib/fancybox/
 !source/lib/font-awesome/
 !source/lib/pace/
+!source/lib/canvas-nest/
+!source/lib/ua-parser-js/
