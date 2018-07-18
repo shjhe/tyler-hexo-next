@@ -13,8 +13,8 @@ timezone: Asia/Shanghai  # 时区
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://shjhe.github.io/hexo
-root: /
+url: https://shjhe.github.io/
+root: /hexo
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -101,5 +101,5 @@ symbols_count_time:
 # SEO site map
 sitemap: 
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
+# baidusitemap:
+#   path: baidusitemap.xml
