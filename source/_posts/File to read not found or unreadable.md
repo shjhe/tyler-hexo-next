@@ -1,6 +1,7 @@
 ---
 title: File to read not found or unreadable
 date: 2018-07-30 14:42:00
+updated: 2018-07-31 09:56:00
 tags:
   - create-react-app
   - node-sass-chokidar
@@ -29,3 +30,7 @@ categories:
 此问题并不是node-sass的问题，主要是vscode锁定了文件而造成了文件不可读，`marcosbozzani`大神是这么说的`The problem seems to be VSCode is still holding the file while node-sass try to access it.`
 
 在此记录一下问题及解决方法，分享给有需要的朋友
+
+## 补充（`亲测`）
+在Linux下使用vscode编辑时，是不会出现这种问题的，所以其实也不能完全说是vscode的问题，要说也只能说是windows系统的问题，简直就是开发者的地狱呀！！[Deepin](https://www.deepin.org/)
+> 我用的linux是Deepin的系统，对于一个国内的开发者，这个系统很友好，大部分开发相关的软件都能装上，在此推荐一下<br>如果在安装使用过程中遇到什么问题，可以一起讨论学习，本人装的是双系统
